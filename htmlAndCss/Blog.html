@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porichito</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,600;0,700;1,200;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<!-- header start -->
+   <section class="sub-header">
+
+    <!-- nav Start -->
+       <nav>
+           <a href=""><img src="images/—Pngtree—red and black logo_5517319.png" height="50px" alt=""></a>
+           <div class="nav-link" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="Index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Course.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Content.html">CONTACT</a></li>
+                </ul>
+           </div>
+           <i class="fa fa-bars " onclick="showMenu()"></i>
+       </nav>
+ <!-- nav End -->
+        <h1>About Me</h1>
+   </section>
+
+<!-- header end -->
+
+
+<!-- bloge Page start -->
+   <section class="blog-content">
+       <div class="row">
+        <div class="blog-left">
+            <img src="images/sparkler-677774.jpg" alt="">
+            <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero, amet deleniti similique distinctio, culpa fugiat dolorum nisi autem quisquam dolorem tenetur at. Perferendis maxime voluptas in facilis magnam sit maiores. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet excepturi delectus neque, cum laudantium tempore quam laborum est repudiandae velit, distinctio asperiores, magnam eligendi? Repellat nostrum atque quidem, rem, assumenda repellendus hic nobis architecto cupiditate, nemo tenetur magnam molestiae eum! Sint ratione suscipit sit perferendis quaerat porro consectetur sunt explicabo!</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero, amet deleniti similique distinctio, culpa fugiat dolorum nisi autem quisquam dolorem tenetur at. Perferendis maxime voluptas in facilis magnam sit maiores.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero, amet deleniti similique distinctio, culpa fugiat dolorum nisi autem quisquam dolorem tenetur at. Perferendis maxime voluptas in facilis magnam sit maiores. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, doloremque reprehenderit. Hic, ab optio facere ex excepturi officiis id dolor in rem asperiores ad, voluptatem quam illum quia debitis?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero, amet deleniti similique distinctio, culpa fugiat dolorum nisi autem quisquam dolorem tenetur at. Perferendis maxime voluptas in facilis magnam sit maiores.</p>
+
+            <div class="comment-box">
+                <h3>Leave a Comment</h3>
+
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Your email">
+                    <textarea rows="5" placeholder="Your Comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST</button>
+                </form>
+            </div>
+
+
+        </div>
+        <div class="blog-right">
+            <h3>Post Categoris</h3>
+            <div>
+                <span>Lorem, ipsum dolor.</span>
+                <span>13</span>
+            </div>
+            <div>
+                <span>Lorem, ipsum dolor.</span>
+                <span>34</span>
+            </div>
+            <div>
+                <span>Lorem, ipsum dolor.</span>
+                <span>67</span>
+            </div>
+            <div>
+                <span>Lorem, ipsum dolor.</span>
+                <span>44</span>
+            </div>
+            <div>
+                <span>Lorem, ipsum dolor.</span>
+                <span>19</span>
+            </div>
+            <div>
+                <span>Lorem, ipsum dolor.</span>
+                <span>71</span>
+            </div>
+            <div>
+                <span>Lorem, ipsum dolor.</span>
+                <span>09</span>
+            </div>
+        </div> 
+       </div>
+   </section>
+<!-- bloge Page end -->
+
+
+<!-- Footer start -->
+        <section class="footer">
+            <h4>About ME</h4>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur hic, itaque quis repudiandae quasi architecto <br> laboriosam sequi officia dicta tenetur mollitia, iusto atque ipsum beatae aliquid placeat quo quae. Nesciunt.</P>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Made By Saiful Alam  <i class="fa fa-heart-o"></i> By kajaba</p>
+        </section>
+<!-- Footer end -->
+
+<!-- JavaScrpt -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0"
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px"
+    }
+</script>
+
+</body>
+</html>
