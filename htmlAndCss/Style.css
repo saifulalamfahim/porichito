@@ -126,7 +126,7 @@ nav .fa{
     margin: auto;
     text-align: center;
     padding-top: 100px;
-    background:black;
+    background-image: url(images/barley-field-1684052.jpg);
 }
 .course h1{
     font-size: 36px;
@@ -135,7 +135,7 @@ nav .fa{
     text-shadow: 2px 2px #FF0000;
 }
 p{
-    color: white;
+    color: black;
     font-size: 14px;
     font-weight: 300;
     line-height: 22px;
@@ -147,8 +147,8 @@ p{
     justify-content: space-between;
 }
 .course-col{
-     flex-basis: 25%;
-     background: gray;
+     flex-basis: 22%;
+     background: whitesmoke;
      border-radius: 10px;
      margin-bottom: 5%;
      padding: 20px 12px;
@@ -160,10 +160,10 @@ h3{
     text-align: center;
     font-weight: 600;
     margin: 10px 0;
-    color: #fff;
+    color:black;
 }
 .course-col:hover{
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 5px 5px rgba(7, 7, 7, 0.2);
 }
 
 @media(max-width: 700px){
@@ -180,6 +180,14 @@ h3{
     margin: auto;
     text-align: center;
     padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background: whitesmoke;
+    border-radius: 10px;
+}
+.capmus h1{
+   font-size: 35px;
 }
 .campus-col{
     flex-basis: 32%;
@@ -228,9 +236,16 @@ h3{
     margin: auto;
     text-align: center;
     padding-top: 100px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background: whitesmoke;
+}
+.facilities h1{
+    font-size: 45px;
 }
 .facilities-col{
-    flex-basis: 31%;
+    flex-basis: 27%;
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: center;
@@ -251,11 +266,12 @@ h3{
 
 
 /* ----testimonals------ */
-.testimonals{
+/* .testimonals{
     width: 80%;
     margin: auto;
     padding-top: 100px;
     text-align: center;
+    background: whitesmoke;
 }
 .testimonial-col{
     flex-basis: 44%;
@@ -289,7 +305,7 @@ h3{
         margin-left: 0px;
         margin-right: 15px;
     }
-}
+} */
 /* ----call to action---- */
 .cta{
     margin: 100px auto;
@@ -316,6 +332,7 @@ h3{
     width: 100%;
     text-align: center;
     padding: 30px 0;
+    background: whitesmoke;
 }
 .footer h4 {
     margin-bottom: 25px;
